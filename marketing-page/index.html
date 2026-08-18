@@ -17,7 +17,7 @@
 <body class="m-0 p-0 box-border  bg-white text-black">
   <header class="bg-emerald-700 shadow-md text-white p-4 flex justify-between items-center">
 
-    <h1 class="text-xl font-bold">Furni</h1>
+    <h1 class="text-xl font-bold  " >Furni</h1>
     <nav class="flex gap-8">
       <a class="text-white hover:bg-gray-600 gap-4" href="#home ">Home</a>
       <a class="text-white hover:bg-gray-600 gap-4" href="#about">About</a>
@@ -27,7 +27,7 @@
 
     </nav>
 
-    <button class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700">
+    <button class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 animate-pulse ">
       Get Started
     </button>
   </header>
@@ -35,10 +35,10 @@
 
 
   <!-- Hero Section -->
-  <main class="p-4">
+  <main class="p-4" id="#home">
     <section class="bg-emerald-700 p-8 flex  flex-col md:flex-row justify-between items-center">
       <div class="text-white font-bold  space-y-4">
-        <h1 class="text-4xl">
+        <h1 class="text-4xl animate-bounce  ">
           Modern Interior <span>Design Studio</span>
         </h1>
         <p>We design and craft furniture that brings warmth and character to every room, blending timeless comfort
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="mt-4 ">
-        <img src="src/assets/couch.png" alt="Couch-pick">
+        <img  class=" animate-pulse" src="src/assets/couch.png" alt="Couch-pick">
       </div>
     </section>
 
@@ -58,7 +58,7 @@
 
 
 
-    <section class="grid grid-cols-1 md:grid-cols-4 gap-8 my-8 p-16">
+    <section class="grid grid-cols-1 md:grid-cols-4 gap-8 my-8 p-16" id="#about"  >
       <div class="text-center space-y-4">
         <h2 class="font-bold text-xl p-2">Crafted with excellent material.</h2>
         <p class="py-2">Every piece is built to last, using premium materials and honest craftsmanship you can feel the
@@ -66,19 +66,19 @@
           sit down.</p>
         <a class="bg-black text-2xl text-white rounded-xl" href="#">Explore</a>
       </div>
-      <div class="text-center space-y-4">
-        <img src="src/assets/product-1.png" alt="Nordic-Chair">
+      <div class="text-center space-y-4 animate-bounce  ">
+        <img   src="src/assets/product-1.png" alt="Nordic-Chair">
         <h3 class="font-bold">Nordic Chair</h3>
         <strong>$50.00</strong>
       </div>
 
-      <div class="text-center space-y-4">
+      <div class="text-center space-y-4   ">
         <img src="src/assets/product-2.png" alt="Kruzo-Aero-Chair">
         <h3 class="font-bold">Kruzo Aero Chair</h3>
         <strong>$78.00</strong>
       </div>
 
-      <div class="text-center space-y-4">
+      <div class="text-center space-y-4 animate-bounce ">
         <img src="src/assets/product-3.png" alt="Ergonomic-Chair">
         <h3 class="font-bold">Ergonomic Chair</h3>
         <strong>$43.00</strong>
@@ -146,18 +146,18 @@
 
     </section>
 
-    <!-- We Help Section -->
+
     <section class="bg-gray-100 p-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <img  class= "h-96 w-full rounded-3xl object-cover" src="src/assets/img-grid-1.jpg" alt="gir`d-pick">
         </div>
         <div class="flex flex-col justify-center">
-          <h2 class="text-2xl p-2 m-2  " >We Help You Make Modern Interior Design</h2>
+          <h2 class="text-2xl p-2 m-2  font-black text-center " >We Help You Make Modern Interior Design</h2>
           <p class="p-2 m-2" >Our designers work closely with you to turn empty rooms into spaces that feel finished, functional, and
             completely your own.</p>
 
-          <ul class="m-4  p-4 ">
+          <ul class="m-2  p-2 ">
             <li><span class=" text-6xl">.</span>Free in-home design consultation</li>
             <li> <span class=" text-6xl">.</span> Custom sizing and finishes</li>
             <li> <span class=" text-6xl">.</span> Sustainably sourced materials</li>
@@ -233,7 +233,7 @@
             in person.
           </p>
           <img class="justify-center rounded-2xl" src="src/assets/testomnies.jpeg" alt="Maria Jones">
-          <h3 class="font-bold text-lg">Maria Jones</h3>
+          <h3 class="font-bold text-lg animate-bounce ">Maria Jones</h3>
           <span class="font-light">CEO, Co-Founder, XYZ Inc.</span>
         </div>
         </div>
@@ -254,7 +254,7 @@
 
           <div class="text-center *:font-semibold"> 
             <a href="#">
-              <img src="src/assets/post-1.jpg" alt="First Time Home Owner Ideas">
+              <img  src="src/assets/post-1.jpg" alt="First Time Home Owner Ideas">
             </a>
             <h3><a  href="#">First Time Home Owner Ideas</a></h3>
             <div>
@@ -274,7 +274,7 @@
 
           <div class="text-center font-semibold">
             <a href="#">
-              <img src="src/assets/post-3.jpg" alt="Small Space Furniture Apartment Ideas">
+              <img  src="src/assets/post-3.jpg" alt="Small Space Furniture Apartment Ideas">
             </a>
             <h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
             <div>
@@ -285,10 +285,11 @@
         </div>
       </div>
     </section>
+
   </main>
 
 
-  <footer class="bg-emerald-700 text-white    ">
+  <footer class="bg-emerald-700 text-white " id="#contact" >
     <p class="font-semibold text-center " >@ 2024 . All rights reserved.</p>
     <p class="font-semibold text-center" >designed by Muhammad Arslan</p>
 
